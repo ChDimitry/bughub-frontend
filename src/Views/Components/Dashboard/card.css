@@ -1,0 +1,23 @@
+.dashboard-card {
+    background-color: #2c3639b7;
+    transition: all 0.2s;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #505a5eb7;
+    height: fit-content;
+}
+
+.dashboard-card:hover {
+    background-color: #293235b7;
+}
+
+.dashboard-card h1 {
+    margin: 10px;
+
+}
+
+.dashboard-card p {
+    margin: 10px;
+}

@@ -1,0 +1,95 @@
+.bug-create-example {
+    background-color: var(--div-color);
+    width: 402px;
+    height: fit-content;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 10px #1b2224b7;
+    border: 1px solid var(--border-color);
+}
+
+.bug-create-example h1 {
+    width: 100%;
+    margin: 10px;
+    word-spacing: -1px;
+}
+
+.bug-create {
+    background-color: var(--div-color);
+    width: 770px;
+    height: fit-content;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 10px #1b2224b7;
+    border: 1px solid var(--border-color);
+    z-index: 10;
+}
+
+.bug-create form {
+    width: 100%;
+    justify-content: left;
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.bug-create input {
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.bug-create #version {
+    width: 20%;
+}
+
+.bug-create textarea {
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    resize: none;
+    padding-left: 5px;
+}
+
+.bug-create label {
+    color: #778788;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.bug-create select {
+    border-radius: 5px;
+    width: 80%;
+    height: 34px;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.bug-create h1 {
+    width: 100%;
+    margin: 10px;
+    word-spacing: -1px;
+    font-size: 1.6rem;
+}
+
+.bug-create button {
+    width: fit-content;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.bug-create .close-btn {
+    grid-column: 2;
+}
+
+.right {
+    grid-column: 2;
+    width: 300px;
+}
+
+.left {
+    grid-column: 1;
+    width: 400px;
+}

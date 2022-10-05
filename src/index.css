@@ -1,0 +1,62 @@
+html {
+    --prime-color: #3d4b4b;
+    --div-color: #2C3639;
+    --div-colorDark: #263033;
+    --divHover-color: #2c3639de;
+    --wrap-color: #546869;
+    --font-color: #dde8e9;
+    --details-color: #535f63;
+    --shadow-color: #232e2e;
+    --border-color: #505a5e;
+    background-color: var(--prime-color);
+}
+#root {
+    grid-template-columns: 20% 80%;
+    display: grid;
+    color: var(--font-color);
+    font-family: Consolas;
+    margin:-8px;
+}
+
+button {
+    background: var(--border-color);
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #d5e0e4;
+    font: normal 18px Consolas;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--shadow-color);
+    transition: all 0.2s;
+    height: 35px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #5e676b;
+}
+
+h1 {
+    color: #778788;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin: 10px;
+}
+
+.page-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    grid-column: 2;
+}
+
+input[type="text"], textarea, input, select {
+    color: white;
+    background-color : #242d31;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-shadow: inset 2px 2px 10px #1f272b;
+    border: 1px solid #3a4144;
+}

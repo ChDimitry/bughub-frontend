@@ -1,0 +1,40 @@
+.open-bug-cards {
+    background-color: var(--div-color);
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    box-shadow: inset 2px 2px 10px #1b2224b7;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newest-bug {
+    background-color: var(--div-color);
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    box-shadow: inset 2px 2px 10px #1b2224b7;
+}
+
+p {
+    margin: 10px;
+}
+
+.statistics-info {
+    background-color: var(--div-color);
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    box-shadow: inset 2px 2px 10px #1b2224b7;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bug-view-link {
+    color: #c2d5db;
+    text-decoration: underline;
+}

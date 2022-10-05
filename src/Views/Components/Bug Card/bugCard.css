@@ -1,0 +1,26 @@
+.bug-card {
+    background-color: var(--div-color);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 292px;
+    height: 200px;
+    transition: all 0.2s;
+    box-shadow: 2px 2px 10px var(--shadow-color);
+}
+
+.bug-card:hover {
+    transform:scale(1.01);
+    background-color: var(--divHover-color);
+}
+
+.bug-card .details {
+    color: var(--details-color);
+    margin: 10px;
+}
+
+.bug-card .creator {
+    color: #c6dbdb;
+    bottom: 0;
+}

@@ -1,0 +1,35 @@
+.loginBG{
+    border-radius: 5px;
+    grid-column: 1/2;
+    width: 50%;
+    height: 50%;
+    background-color: var(--prime-color);
+    margin: 0px auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-panel{
+    background-color: var(--div-color);
+    width: 420px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    padding: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: inset 2px 2px 10px #1b2224b7;
+    border: 1px solid var(--border-color);
+}
+
+.login-panel input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    padding-left: 5px;
+}

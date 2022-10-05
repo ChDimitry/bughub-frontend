@@ -1,0 +1,26 @@
+.bug-view {
+    position: absolute;
+    background-color: #2c3639b7;
+    box-shadow: 4px 4px 20px var(--shadow-color);
+    border-radius: 5px;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    color: var(--bugcardfont-color)
+}
+
+.bug-view h1 {
+    margin: 10px;
+    width: 100%;
+    letter-spacing: -1px;
+}
+
+.edit-bug {
+    position: absolute;
+    left: 402px;
+}
